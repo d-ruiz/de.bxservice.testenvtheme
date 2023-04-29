@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: test.custom.theme
+Bundle-SymbolicName: de.bxservice.testenvtheme;singleton:=true
+Bundle-Version: 8.1.0.qualifier
+Fragment-Host: org.adempiere.ui.zk;bundle-version="8.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Jetty-WarFragmentFolderPath: /
+Bundle-ClassPath: theme/,
+ .
+Automatic-Module-Name: test.custom.theme
